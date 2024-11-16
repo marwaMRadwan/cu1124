@@ -1,0 +1,93 @@
+Giza NTI
+Nti@Cu2o23
+----------------------------------------------------------------
+Module Content:
+
+Module 1: Introduction to Web Design
+	Overview of Web Design
+	Basic concepts of the internet and web.
+	History and evolution of web design.
+	Key principles of modern web design.
+	Overview of tools and technologies.
+Introduction to HTML
+	What is HTML?
+	Structure of an HTML document.
+	Common HTML tags: headings, paragraphs, links, images, lists.
+	HTML Advanced
+	Forms and input elements.
+	Semantic HTML.
+	HTML5 new elements and attributes.
+
+Module 2: Styling with CSS
+	Introduction to CSS.
+	What is CSS?
+	Relationship between HTML and CSS.
+	Basic CSS syntax and structure.
+	CSS Selectors.
+	Basic selectors (element, class, ID).
+	Combinators (child, descendant, adjacent sibling).
+	Attribute selectors.
+	Pseudo-classes and pseudo-elements.
+	CSS Properties.
+	Font (family, size, weight, style, etc.)
+	Text (color, align, transformation, decoration, etc.)
+	Backgrounds and Gradients (images, repeat, and attachment, etc.)
+	CSS Layout.
+	The Box Model.
+	Positioning and display properties.
+	Flexbox layout systems.
+	CSS Effects.
+	CSS Box-shadow and Text-shadow.
+	CSS transitions and animations.
+	CSS  2D and 3D Transforms.
+	Responsive Design.
+	Mobile-first design.
+	Media queries.
+	Fluid layouts and responsive typography.
+
+Using Bootstrap as a framework for CSS
+	Understanding Bootstrap: What is it? Why use it?
+	Bootstrap Grid System (containers, rows and columns).
+	Bootstrap Typography.
+	Bootstrap Contents and Components.
+	Bootstrap Utilities.
+
+•	Module 3: JavaScript for Web Designers
+	Introduction to JavaScript.
+	What is JavaScript?
+	Where JavaScript fits in web development.
+	JavaScript basic syntax and structure.
+	Writing and running JavaScript code.
+	JavaScript Fundamentals
+	Variables and data types (numbers, strings, booleans, null, undefined, etc.)
+	Operators (arithmetic, comparison, logical, etc.)
+	Control flow (if/else, switch, for, while, etc.)
+	Functions (declarations, expressions, arguments, return values).
+	DOM Manipulation.
+	Understanding the Document Object Model (DOM).
+	Selecting and modifying DOM elements.
+	Creating, modifying, and removing elements.
+	Event handling (click, mouseover, keypress, etc.).
+	JavaScript Objects
+	Object literals.
+	Object properties and methods.
+	Constructor functions.
+	This keyword.
+	JavaScript Arrays.
+	Creating and accessing arrays.
+	Array methods (push, pop, shift, unshift, splice, slice, etc.)
+	Array iteration (for, for...of, forEach, map, filter, etc.)
+	JavaScript ES6+ Features.
+	Arrow functions.
+	Destructuring, spread/rest operators.
+	Modules and classes.
+
+•	Module 4: Project-Based Learning
+	Project Planning and Setup
+	Defining project goals and scope.
+	Creating a project plan and timeline.
+	Building a Client Project
+	Applying HTML, CSS, and JavaScript.
+	Implementing responsive design.
+	Testing and debugging.
+
