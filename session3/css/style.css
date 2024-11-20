@@ -1,0 +1,106 @@
+/* h2{
+    color: red;
+}
+#head2{
+    color: blue;
+}
+.headclass2{
+    color: green;
+} */
+/* body{
+    direction: rtl;
+}
+
+p{
+    color: green;
+}
+#txt{
+    color:red;
+    color: rgba(100, 200, 150, 0.3); */
+    /* color: #ad67b5; */
+    /* text-align: end; */
+    /* text-align: justify;
+    text-align-last: center; */
+    /* text-decoration: underline wavy green; */
+    /* text-shadow: 0px 0px 0.5px blue ;
+    text-transform: none;
+} */
+/* p{ */
+    /* color:orange */
+/* } */
+/* *{
+    font-family: "Sour Gummy", sans-serif;
+    color:blue!important;
+} */
+/* .heading{
+    text-align: left;
+    /* text-transform: uppercase; */
+    /* color:cadetblue; */
+    /* text-decoration: underline dotted rosybrown; */
+    /* text-shadow: 0 0 0.3px red;
+    font-size: 1em; */
+    /* px em=16px  rem=16px responsive */
+    /* font-weight: 400; */
+    /* font-family: 'Trebuchet MS',
+     'Lucida Sans Unicode', 
+     'Lucida Grande', 
+     'Lucida Sans', 
+     Arial, 
+     sans-serif; */
+
+/* } */
+/* p{ */
+    /* white-space: nowrap; */
+    /* letter-spacing: 1.5px; */
+    /* line-height: 2; */
+/* } */
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 3000px;
+    background-color: black;
+    color: white;
+}
+/* div{ */
+    /* color:white;
+    background-color: rebeccapurple; */
+    /* min-height: fit-content; */
+    /* 150px; */
+    /* width: fit-content; */
+    /* height: 15rem;
+    background-image: url(../images/1.jpg);
+    background-size: 50px 50px;
+    background-repeat: no-repeat; */
+    /* background-attachment: fixed; */
+    /* background-position: bottom center; */
+    /* height: 100px;
+    width:50%;
+    background-color: blue; */
+    /* margin: 5px 15px 25px 16px; */
+    /* margin-top: 5%;
+    margin-left: 2%;
+    margin-bottom: 3%;
+    padding: 5%; */
+    /* font-style: italic; */
+    /* font-variant: small-caps;
+} */
+/* p{
+    font-variant: small-caps;
+}
+h2{
+    text-align: center;
+    margin: 1rem; */
+    /* font-variant: small-caps; */
+/* }
+p{
+    text-transform: capitalize;
+    font-size: 1.5rem;
+    font-variant: small-caps;
+    word-spacing: 15px;
+}
+
+p span{
+
+} */
