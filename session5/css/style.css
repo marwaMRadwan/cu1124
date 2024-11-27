@@ -1,0 +1,126 @@
+/* body{
+    background-color: black;
+}
+div{
+    height: 150px;
+    width: calc(100% / 12);
+    background-color: red;
+} */
+/* % px rem em vh wh 
+calc(100px - 15rem )
+*/
+/* .col-1{ width: calc(100% / 10);}
+.col-2{ width: calc(100% / 5);}
+.col-3{ width: calc(100% / 10/3);}
+.col-4{ width: calc(100% / 10/4);}
+.col-5{ width: calc(100% / 10/5);}
+.col-6{ width: calc(100% / 10/6);}
+.col-7{ width: calc(100% / 10/7);}
+.col-8{ width: calc(100% / 10/8);}
+.col-9{ width: calc(100% / 10/9);}
+.col-10{ width: calc(100% / 10/10);} */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* :root{
+    --mainColor : blanchedalmond;
+    --darkColor : black;
+    --lightColor: #eee;
+    --white: white;
+    --small: 25px;
+} */
+/* section{
+    width: 100%;
+}
+.img-fluid{
+    max-width: 100%;
+}
+
+.p-absolute{ position:absolute; top:50%; right: 10%; left:10%} */
+
+/* .container-full{ width:100% }
+.full-height { height: 100vh;}
+.bg-no-repeat { background-repeat: no-repeat; }
+.cover-bg { background-size: cover;}
+.p-relative { position: relative;}
+.p-absolute { position: absolute;}
+.b-radius { border-radius: var(--small)}
+
+
+header{
+    background-image: url(../../session4/images/blog-01.jpg);
+}
+
+.header-card{
+    background-color: var(--mainColor);
+    width:30%;
+    padding: 2.5%;   
+    border-radius: 10px;
+    box-shadow: 0 0 2.5px lightblue;
+    position: absolute;
+    right: 10%;
+    bottom: 10%;
+} */
+
+/* body{
+    height: 3000px;
+}
+section{
+    width:100%;
+    height: 100vh;
+    background-image: url(../../session4/images/blog-01.jpg);
+    background-size: cover;
+    position: relative; */
+    /* padding-top: 100px; */
+    /* display: none;
+}
+.overlay{
+    width: 100%;
+    height: 100%;
+    background-color: red;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 9;
+    opacity: 0.2;
+}
+h1{
+    position: absolute;
+    text-align: center;
+    font-size: 50px;
+    z-index:10;
+    color:white;
+    width:100%
+}
+nav{
+    height: 100px;
+    background: red; */
+    /* position: fixed; */
+    /* position: sticky;
+    top:0;
+    width: 100%;
+    z-index: 9999; */
+    /* margin-bottom: 100px;; */
+/* } */
+
+div{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    margin: 10% auto;
+}
+div:hover{
+    background-color: blue;
+}
+div h1{
+    text-align: center;
+    display: none;
+}
+
+div:hover h1{
+    color:white;
+    display:block
+}
