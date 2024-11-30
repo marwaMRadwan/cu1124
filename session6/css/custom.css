@@ -1,0 +1,40 @@
+*{ margin: 0; padding: 0; box-sizing: border-box;   font-family: "Parkinsans", sans-serif;
+}
+:root{
+    --primary-color: #3498db;
+    --secondary-color: #2ecc71;
+    --dark-color: black;
+    --light-color: wheat;
+    --white: white;
+    --muted: #eee;
+}
+.d-flex{ display: flex; flex-wrap: wrap;}
+.container{ width: 90%; margin-left: auto; margin-right: auto;}
+.full-width{ width: 100%;}
+.half-width{ width: 30%;}
+.qu-width{ width: 10%;}
+.img-fluid{ max-width: 100%; height: auto; }
+
+.py-1{ padding-bottom: 1%; padding-top: 1%;}
+
+.space-between { justify-content: space-between; }
+.space-around { justify-content: space-around;}
+.align-items-center{ align-items: center;}
+.absolute{ position: absolute;}
+.relative{ position: relative;}
+.stickey{ position: sticky; top:0; z-index: 9999;}
+
+nav ul{
+    list-style: none;
+}
+a{ color: var(--dark-color); text-decoration: none;}
+.active-nav{ color: var(--primary-color);}
+.bg-light{ background-color: var(--secondary-color);}
+table{ border-collapse: collapse;}
+#cart-table table{ width:70%}
+#cart-table td, #cart-table th{
+    width: calc(100%/6)
+}
+th, td{
+    padding: 2% 0;
+}

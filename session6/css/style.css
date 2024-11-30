@@ -33,7 +33,7 @@ section .card{
     padding: 0.5% 3%;
 } */
 
-table, th, td{
+/* table, th, td{
     border: 2px solid red;
 }
 table{
@@ -50,4 +50,33 @@ tr:nth-child(odd){
 tr:hover{
     background-color: #eee;
     color:red;
+} */
+
+section{
+    width:100%;
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    /* align-content: center; */
+    justify-content: space-around; /*space between*/
+}
+section div{
+    width: 49%;
+    background-color: white;
+    border: 2px solid red;
+    margin-bottom: 2%;
+    /* margin: 1%; */
+}
+
+
+.w-25{ width: 25%; }
+.w-50{ width:50%; }
+nav div{
+    height: 50px;
+    border:2px solid black;
+}
+.d-flex{
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-direction: row; */
 }
