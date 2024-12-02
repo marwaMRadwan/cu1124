@@ -78,4 +78,10 @@ a{ text-decoration: none; color: black;}
 .align-self-center{ align-self: center;}
 li{ list-style: none;}
 .nav-item{ padding-right: 5%;}
-.nav-item .active{ color: red!important;;}
+.nav-item .active{ color: red!important;}
+.section-margin{
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+.img-fluid{max-width: 100%; padding: auto 3%;}
+.w-20{ width: 20%;}
