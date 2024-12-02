@@ -23,7 +23,7 @@ input:focus{
     --dark-color:#0C0C0C;
 }
 a{ text-decoration: none; color: black;}
-.test{ height: 50px; background: red;}
+.test{ height: 50px;  padding: 2% 0.3%;}
 .container{ width: 90%; margin:auto; }
 .d-flex{ display: flex; flex-wrap: wrap;}
 .main-padding{ padding-left: 5%; padding-right: 5%;}
