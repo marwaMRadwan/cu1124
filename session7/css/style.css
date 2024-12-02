@@ -54,3 +54,28 @@ a{ text-decoration: none; color: black;}
     text-align: center;
     line-height: 18px;
 }
+.space-between{ justify-content: space-between;}
+#search{
+    width: 40%;
+    border: 1px solid #eee;
+    padding: 0.5%;
+    border-radius: 5px;
+}
+#search i{
+    width: 3%;
+}
+#search input{
+    width: 95%;
+}
+.btn-primary{
+    background-color: var(--blue);
+    color: white;
+    border-radius: 20px;
+    padding: 2% 7%;
+}
+.w-25{ width: 25%;}
+.text-end{ text-align: end;}
+.align-self-center{ align-self: center;}
+li{ list-style: none;}
+.nav-item{ padding-right: 5%;}
+.nav-item .active{ color: red!important;;}
