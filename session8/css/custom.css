@@ -1,0 +1,107 @@
+*{ 
+    margin: 0; padding: 0; box-sizing: border-box; 
+    /* overflow-x: hidden;  */
+}
+.container-fluid{ 
+    width:95%;
+    margin: 0 auto;
+    /* overflow-x: hidden; */
+}
+.container-fluid *{
+   max-width: 100%;
+}
+.d-flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 5%;
+}
+.card{ 
+    min-width: 30%;
+    max-width: 30%;
+}
+@media(max-width:768px){
+    .card{
+        min-width:50%;
+        max-width: 50%;
+    }
+}
+@media(max-width:578px){
+    .card{
+        min-width:100%;
+        max-width: 100%;
+    }
+}
+.card img{
+    max-width: 100%;
+}
+.card p, .card h2, .card a{ margin-left: 2%;margin-right: 2%;}
+.card a{
+    display: inline-block;
+    background-color: blue;
+    color: azure;
+    padding: 2% 5%;
+    border-radius: 15px;
+}
+
+/* body{ height: 5000px;} */
+
+/* 
+
+#hero+p{
+    margin: 2%;
+    padding: 5%;
+    border: 2px solid black;
+}
+  body::-webkit-scrollbar {
+      width: 1em;
+  }
+   
+  body::-webkit-scrollbar-track {
+      -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+  }
+   
+  body::-webkit-scrollbar-thumb {
+    background-color: red;
+    outline: 1px solid slategrey;
+  } */
+
+
+/* section {
+    width: 100%;
+    border: 2px solid black;
+    display:flex;
+    overflow: auto;
+    flex-direction: row;
+}
+section div{
+    height: 100px;
+    min-width: 30%;
+    margin-left: 2%;
+    background: red;
+    border: 2px solid black;
+} */
+
+/* section{
+    background-image: url(../images/road.png); */
+    /* height: 500px; */
+    /* background-size: contain; */
+    /* overflow: hidden; */
+    /* position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+section img{
+    position: absolute;
+    left: 0;
+    animation: carmove;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes carmove {
+    0%{left: 0;}
+    /* 25%{}
+    50%{}
+    75%{} */
+    /* 100%{ left: 99%;} */
+/* }  */
