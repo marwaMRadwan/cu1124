@@ -1,0 +1,9 @@
+.nav-link.active{
+    color: red!important;
+}
+.carousel-item img{
+    height: 80vh;
+}
+.text-primary{
+    color: red!important;
+}

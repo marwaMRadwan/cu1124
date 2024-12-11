@@ -1,0 +1,17 @@
+*{
+    font-family: "Tinos", serif;
+    font-weight: 400;
+    font-style: normal;  
+}
+:root{
+    --dark-color: #1C1E53;
+}
+.bg-main{
+    background-color: var(--dark-color)!important;
+}
+.yellow-bg{
+    background-color: #FCD980!important;
+}
+body{
+    height: 3000px;
+}
