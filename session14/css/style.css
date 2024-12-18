@@ -1,0 +1,39 @@
+/* #test{
+    width:0;
+}
+.menu{
+    transition: all 1s;
+
+}
+.menu.hide{
+    width:0%;
+    overflow: hidden;
+}
+.menu.show{
+    width:20%
+} */
+/* .content{
+    width:100%;
+} */
+
+.slide{
+    display: none;
+}
+.slide.active{
+    display: block;
+}
+.slide img{
+    width: 100%;
+    height: 500px;
+}
+
+.dot{
+    height: 30px;
+    width: 30px;
+    background-color: red;
+    border-radius: 50%;
+    margin: 2%;
+}
+.dot.active{
+    background-color: aquamarine;
+}
