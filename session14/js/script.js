@@ -77,3 +77,22 @@ dots.forEach((dot, i)=>{
         current = i
     })
 })
+
+const after = document.querySelector("#after")
+const before = document.querySelector("#before")
+after.addEventListener("click", function(){
+    current++    
+    if(current>dots.length-1) current=0
+    slides.forEach(s=> s.classList.remove("active"))
+    dots.forEach(s=> s.classList.remove("active"))
+    dots[current].classList.add("active")
+    slides[current].classList.add("active")
+})
+before.addEventListener("click", function(){
+    current--
+    if(current<0) current=dots.length-1
+    slides.forEach(s=> s.classList.remove("active"))
+    dots.forEach(s=> s.classList.remove("active"))
+    dots[current].classList.add("active")
+    slides[current].classList.add("active")
+})
