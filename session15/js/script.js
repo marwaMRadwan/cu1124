@@ -151,6 +151,10 @@
 // })
 
 let d = []
+let inputs = ["title", "name", "age", "job", "description"]
+// let res = { id : Date.now()}
+// inputs.forEach( inp => res[inp] = "abc" )
+// console.log(res)
 
 const myForm = document.querySelector("form")
 myForm.addEventListener("submit", function(e){
@@ -158,11 +162,32 @@ myForm.addEventListener("submit", function(e){
     console.log(this.elements)
     let data = {
         id: Date.now(), // timestamp
-        title: this.title.value,
-        name: this.name.value,
-        age: this.age.value,
-        job:this.job.value
+        // title: this.title.value,
+        // name: this.name.value,
+        // age: this.age.value,
+        // job:this.job.value
     }
+    inputs.forEach( inp => {
+        try{
+            data[inp] = this[inp].value 
+        }
+        catch(err){
+            data[inp] = ""
+        }
+    })
+
     console.log(data)
     d.push(data)
 })
+
+
+// try{
+    // x = 6
+    // x = 5/dchg
+    // console.log(x)
+// }
+// catch(err){
+//     console.log(err.message)
+// }
+
+console.log("test")
