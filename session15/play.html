@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <input type="checkbox" name="status">
+        <button>add</button>
+    </form>
+    <script>
+        document.querySelector("form").addEventListener("submit", function(e){
+            e.preventDefault()
+            console.log(this.status.checked)
+        })
+    </script>
+</body>
+</html>

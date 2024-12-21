@@ -25,9 +25,23 @@
         </table> -->
         <form>
             <input name="title" placeholder="enter your title" class="form-control mb-3">
-            <input name="name" placeholder="enter your name" class="form-control mb-3">
+            <div></div>
+            <input name="name" placeholder="enter your name" class="form-control mb-3" id="name">
+            <div></div>
             <input name="age" placeholder="enter your age" class="form-control mb-3">
+            <div></div>
             <input name="job" placeholder="enter your job" class="form-control mb-3">
+            <div></div>
+            <div>
+                <input name="gender" value="Female" type="radio"> Female
+                <input name="gender" value="Male" type="radio"> Male
+                <div></div>
+            </div>
+            <div>
+                <input type="checkbox" name="status"> Status
+            </div>
+            <!-- gender
+            status => true false -->
             <button class="btn btn-primary" type="submit">Add Data</button>
         </form>
     </section>
@@ -40,6 +54,8 @@
                     <th>Name</th>
                     <th>Age</th>
                     <th>job</th>
+                    <th>Gender</th>
+                    <th>Status</th>
                 </tr>
             </thead>
             <tbody></tbody>
